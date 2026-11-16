@@ -1,0 +1,6 @@
+[
+  {"id": "n01", "split": "dev", "type": "no_evidence", "question": "Máy standby cần tối thiểu bao nhiêu GB RAM để chạy hot standby?", "expected_behavior": "abstain", "check": "findstr 'GB of RAM' trên 36 trang: ĐIỀN KẾT QUẢ"},
+  {"id": "n02", "split": "dev", "type": "no_evidence", "question": "PostgreSQL có tự động tạo index cho cột khóa ngoại (foreign key) không?", "expected_behavior": "abstain", "check": "findstr 'foreign key' trên 36 trang: ĐIỀN KẾT QUẢ"},
+  {"id": "n03", "split": "test", "type": "no_evidence", "question": "Chạy ở mức cô lập Serializable làm giảm thông lượng bao nhiêu phần trăm so với Read Committed?", "expected_behavior": "abstain", "check": "findstr 'throughput' trên 36 trang: ĐIỀN KẾT QUẢ"},
+  {"id": "n04", "split": "test", "type": "no_evidence", "question": "Tốc độ ghi WAL tối đa (MB/s) mà PostgreSQL 16 đạt được trên ổ SSD NVMe là bao nhiêu?", "expected_behavior": "abstain", "check": "findstr 'MB/s' trên 36 trang: ĐIỀN KẾT QUẢ"}
+]

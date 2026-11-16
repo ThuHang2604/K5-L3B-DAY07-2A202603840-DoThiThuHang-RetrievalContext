@@ -1,0 +1,380 @@
+{
+  "source_id": "pg16-docs",
+  "title": "PostgreSQL 16 Documentation",
+  "source_path_or_url": "https://www.postgresql.org/docs/16/",
+  "version": "16.16",
+  "license_or_permission": "Xem Legal Notice cua docs v16 (data/legal_notice.txt)",
+  "legal_notice_url": "https://www.postgresql.org/docs/16/legalnotice.html",
+  "legal_notice_fetch": "ok",
+  "accessed_at": "2026-11-14T03:45:44+00:00",
+  "page_counting_rule": "Moi trang section HTML la 1 don vi nguon (page_id = slug). Chi tinh trang co >= 1500 ky tu sau chuan hoa; da bo menu/breadcrumb/footer va muc luc con.",
+  "min_chars_per_unit": 1500,
+  "chapters": [
+    {
+      "slug": "indexes",
+      "chapter": "11. Indexes",
+      "part": "II. The SQL Language"
+    },
+    {
+      "slug": "mvcc",
+      "chapter": "13. Concurrency Control",
+      "part": "II. The SQL Language"
+    },
+    {
+      "slug": "performance-tips",
+      "chapter": "14. Performance Tips",
+      "part": "II. The SQL Language"
+    },
+    {
+      "slug": "maintenance",
+      "chapter": "25. Routine Database Maintenance Tasks",
+      "part": "III. Server Administration"
+    },
+    {
+      "slug": "backup",
+      "chapter": "26. Backup and Restore",
+      "part": "III. Server Administration"
+    },
+    {
+      "slug": "high-availability",
+      "chapter": "27. High Availability, Load Balancing, and Replication",
+      "part": "III. Server Administration"
+    },
+    {
+      "slug": "wal",
+      "chapter": "30. Reliability and the Write-Ahead Log",
+      "part": "III. Server Administration"
+    }
+  ],
+  "counts": {
+    "units_total_seen": 47,
+    "units_kept": 36,
+    "total_chars_kept": 368961
+  },
+  "pages": [
+    {
+      "page_id": "indexes-intro",
+      "url": "https://www.postgresql.org/docs/16/indexes-intro.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Indexes",
+      "section_title": "11.1. Introduction #",
+      "chars": 4058
+    },
+    {
+      "page_id": "indexes-types",
+      "url": "https://www.postgresql.org/docs/16/indexes-types.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Indexes",
+      "section_title": "11.2. Index Types #",
+      "chars": 6106
+    },
+    {
+      "page_id": "indexes-multicolumn",
+      "url": "https://www.postgresql.org/docs/16/indexes-multicolumn.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Indexes",
+      "section_title": "11.3. Multicolumn Indexes #",
+      "chars": 3673
+    },
+    {
+      "page_id": "indexes-ordering",
+      "url": "https://www.postgresql.org/docs/16/indexes-ordering.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Indexes",
+      "section_title": "11.4. Indexes and ORDER BY #",
+      "chars": 3052
+    },
+    {
+      "page_id": "indexes-bitmap-scans",
+      "url": "https://www.postgresql.org/docs/16/indexes-bitmap-scans.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Indexes",
+      "section_title": "11.5. Combining Multiple Indexes #",
+      "chars": 3328
+    },
+    {
+      "page_id": "indexes-expressional",
+      "url": "https://www.postgresql.org/docs/16/indexes-expressional.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Indexes",
+      "section_title": "11.7. Indexes on Expressions #",
+      "chars": 1949
+    },
+    {
+      "page_id": "indexes-partial",
+      "url": "https://www.postgresql.org/docs/16/indexes-partial.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Indexes",
+      "section_title": "11.8. Partial Indexes #",
+      "chars": 8883
+    },
+    {
+      "page_id": "indexes-index-only-scans",
+      "url": "https://www.postgresql.org/docs/16/indexes-index-only-scans.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Indexes",
+      "section_title": "11.9. Index-Only Scans and Covering Indexes #",
+      "chars": 9478
+    },
+    {
+      "page_id": "indexes-opclass",
+      "url": "https://www.postgresql.org/docs/16/indexes-opclass.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Indexes",
+      "section_title": "11.10. Operator Classes and Operator Families #",
+      "chars": 4168
+    },
+    {
+      "page_id": "indexes-examine",
+      "url": "https://www.postgresql.org/docs/16/indexes-examine.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Indexes",
+      "section_title": "11.12. Examining Index Usage #",
+      "chars": 3696
+    },
+    {
+      "page_id": "mvcc-intro",
+      "url": "https://www.postgresql.org/docs/16/mvcc-intro.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Concurrency Control",
+      "section_title": "13.1. Introduction #",
+      "chars": 1631
+    },
+    {
+      "page_id": "transaction-iso",
+      "url": "https://www.postgresql.org/docs/16/transaction-iso.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Concurrency Control",
+      "section_title": "13.2. Transaction Isolation #",
+      "chars": 23212
+    },
+    {
+      "page_id": "explicit-locking",
+      "url": "https://www.postgresql.org/docs/16/explicit-locking.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Concurrency Control",
+      "section_title": "13.3. Explicit Locking #",
+      "chars": 16286
+    },
+    {
+      "page_id": "applevel-consistency",
+      "url": "https://www.postgresql.org/docs/16/applevel-consistency.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Concurrency Control",
+      "section_title": "13.4. Data Consistency Checks at the Application Level #",
+      "chars": 6154
+    },
+    {
+      "page_id": "mvcc-serialization-failure-handling",
+      "url": "https://www.postgresql.org/docs/16/mvcc-serialization-failure-handling.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Concurrency Control",
+      "section_title": "13.5. Serialization Failure Handling #",
+      "chars": 2263
+    },
+    {
+      "page_id": "mvcc-caveats",
+      "url": "https://www.postgresql.org/docs/16/mvcc-caveats.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Concurrency Control",
+      "section_title": "13.6. Caveats #",
+      "chars": 1840
+    },
+    {
+      "page_id": "using-explain",
+      "url": "https://www.postgresql.org/docs/16/using-explain.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Performance Tips",
+      "section_title": "14.1. Using EXPLAIN #",
+      "chars": 37428
+    },
+    {
+      "page_id": "planner-stats",
+      "url": "https://www.postgresql.org/docs/16/planner-stats.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Performance Tips",
+      "section_title": "14.2. Statistics Used by the Planner #",
+      "chars": 15182
+    },
+    {
+      "page_id": "explicit-joins",
+      "url": "https://www.postgresql.org/docs/16/explicit-joins.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Performance Tips",
+      "section_title": "14.3. Controlling the Planner with Explicit JOIN Clauses #",
+      "chars": 6725
+    },
+    {
+      "page_id": "populate",
+      "url": "https://www.postgresql.org/docs/16/populate.html",
+      "part": "The SQL Language",
+      "part_no": "II",
+      "chapter": "Performance Tips",
+      "section_title": "14.4. Populating a Database #",
+      "chars": 9422
+    },
+    {
+      "page_id": "maintenance",
+      "url": "https://www.postgresql.org/docs/16/maintenance.html",
+      "part": "Server Administration",
+      "part_no": "III",
+      "chapter": "Routine Database Maintenance Tasks",
+      "section_title": "Chapter 25. Routine Database Maintenance Tasks",
+      "chars": 1558
+    },
+    {
+      "page_id": "routine-vacuuming",
+      "url": "https://www.postgresql.org/docs/16/routine-vacuuming.html",
+      "part": "Server Administration",
+      "part_no": "III",
+      "chapter": "Routine Database Maintenance Tasks",
+      "section_title": "25.1. Routine Vacuuming #",
+      "chars": 35429
+    },
+    {
+      "page_id": "logfile-maintenance",
+      "url": "https://www.postgresql.org/docs/16/logfile-maintenance.html",
+      "part": "Server Administration",
+      "part_no": "III",
+      "chapter": "Routine Database Maintenance Tasks",
+      "section_title": "25.3. Log File Maintenance #",
+      "chars": 4975
+    },
+    {
+      "page_id": "backup-dump",
+      "url": "https://www.postgresql.org/docs/16/backup-dump.html",
+      "part": "Server Administration",
+      "part_no": "III",
+      "chapter": "Backup and Restore",
+      "section_title": "26.1. SQL Dump #",
+      "chars": 9290
+    },
+    {
+      "page_id": "backup-file",
+      "url": "https://www.postgresql.org/docs/16/backup-file.html",
+      "part": "Server Administration",
+      "part_no": "III",
+      "chapter": "Backup and Restore",
+      "section_title": "26.2. File System Level Backup #",
+      "chars": 4291
+    },
+    {
+      "page_id": "continuous-archiving",
+      "url": "https://www.postgresql.org/docs/16/continuous-archiving.html",
+      "part": "Server Administration",
+      "part_no": "III",
+      "chapter": "Backup and Restore",
+      "section_title": "26.3. Continuous Archiving and Point-in-Time Recovery (PITR) #",
+      "chars": 38388
+    },
+    {
+      "page_id": "high-availability",
+      "url": "https://www.postgresql.org/docs/16/high-availability.html",
+      "part": "Server Administration",
+      "part_no": "III",
+      "chapter": "High Availability, Load Balancing, and Replication",
+      "section_title": "Chapter 27. High Availability, Load Balancing, and Replication",
+      "chars": 2898
+    },
+    {
+      "page_id": "different-replication-solutions",
+      "url": "https://www.postgresql.org/docs/16/different-replication-solutions.html",
+      "part": "Server Administration",
+      "part_no": "III",
+      "chapter": "High Availability, Load Balancing, and Replication",
+      "section_title": "27.1. Comparison of Different Solutions #",
+      "chars": 7982
+    },
+    {
+      "page_id": "warm-standby",
+      "url": "https://www.postgresql.org/docs/16/warm-standby.html",
+      "part": "Server Administration",
+      "part_no": "III",
+      "chapter": "High Availability, Load Balancing, and Replication",
+      "section_title": "27.2. Log-Shipping Standby Servers #",
+      "chars": 32508
+    },
+    {
+      "page_id": "warm-standby-failover",
+      "url": "https://www.postgresql.org/docs/16/warm-standby-failover.html",
+      "part": "Server Administration",
+      "part_no": "III",
+      "chapter": "High Availability, Load Balancing, and Replication",
+      "section_title": "27.3. Failover #",
+      "chars": 2960
+    },
+    {
+      "page_id": "hot-standby",
+      "url": "https://www.postgresql.org/docs/16/hot-standby.html",
+      "part": "Server Administration",
+      "part_no": "III",
+      "chapter": "High Availability, Load Balancing, and Replication",
+      "section_title": "27.4. Hot Standby #",
+      "chars": 26000
+    },
+    {
+      "page_id": "wal-reliability",
+      "url": "https://www.postgresql.org/docs/16/wal-reliability.html",
+      "part": "Server Administration",
+      "part_no": "III",
+      "chapter": "Reliability and the Write-Ahead Log",
+      "section_title": "30.1. Reliability #",
+      "chars": 7969
+    },
+    {
+      "page_id": "wal-intro",
+      "url": "https://www.postgresql.org/docs/16/wal-intro.html",
+      "part": "Server Administration",
+      "part_no": "III",
+      "chapter": "Reliability and the Write-Ahead Log",
+      "section_title": "30.3. Write-Ahead Logging (WAL) #",
+      "chars": 2456
+    },
+    {
+      "page_id": "wal-async-commit",
+      "url": "https://www.postgresql.org/docs/16/wal-async-commit.html",
+      "part": "Server Administration",
+      "part_no": "III",
+      "chapter": "Reliability and the Write-Ahead Log",
+      "section_title": "30.4. Asynchronous Commit #",
+      "chars": 5077
+    },
+    {
+      "page_id": "wal-configuration",
+      "url": "https://www.postgresql.org/docs/16/wal-configuration.html",
+      "part": "Server Administration",
+      "part_no": "III",
+      "chapter": "Reliability and the Write-Ahead Log",
+      "section_title": "30.5. WAL Configuration #",
+      "chars": 15412
+    },
+    {
+      "page_id": "wal-internals",
+      "url": "https://www.postgresql.org/docs/16/wal-internals.html",
+      "part": "Server Administration",
+      "part_no": "III",
+      "chapter": "Reliability and the Write-Ahead Log",
+      "section_title": "30.6. WAL Internals #",
+      "chars": 3234
+    }
+  ]
+}
