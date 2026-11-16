@@ -87,7 +87,7 @@ Lưu ý: baseline q21 chấm context 0 theo đoạn evidence chuẩn, nhưng age
 | n03 (baseline) | thiếu bằng chứng | search 2 lần | Không đủ bằng chứng | từ chối đúng |
 | n04 (cả hai) | thiếu bằng chứng | search 1 đến 2 lần | Không đủ bằng chứng | từ chối đúng |
 
-**Agent trên dev (cấu hình chọn, `gemini-3.1-flash-lite`, 21 câu):** 18 câu có đáp án được trả lời kèm citation, q09 bị từ chối, n01 và n02 đều từ chối, 0 lỗi hệ thống. Số câu chỉ được đếm theo trạng thái. **[TODO: nếu có thời gian, chấm thủ công dev bằng `show_answers.py agent-dev-lite`; nếu không, ghi rõ dev agent chưa được chấm nhãn.]** Nguyên nhân q09 bị từ chối chưa được phân tích.
+**Agent trên dev (cấu hình chọn, `gemini-3.1-flash-lite`, 21 câu):** 18 câu có đáp án được trả lời kèm citation, q09 bị từ chối, n01 và n02 đều từ chối, 0 lỗi hệ thống. Số câu chỉ được đếm theo trạng thái. Nguyên nhân q09 bị từ chối chưa được phân tích.
 
 **Đường dẫn trace, nhãn, lệnh chạy, thời gian và chi phí:** `starter/results/agent-test-chosen/` và `starter/results/agent-test-baseline/` (gồm `traces.json`, `traces_normalized.json`, `reviews.json`, `summary.json`); retrieval: `starter/results/test-retrieval-*` và các thư mục `dev-*`. Lệnh chạy chính: `run_agent.py --split test --expand 1 --budget 9000` (cấu hình chọn) và `--expand 0 --budget 800` (baseline). Thời gian mỗi câu thường 7 đến 20 giây, tối đa khoảng 66 giây (q24, đã chọn), do độ trễ phía dịch vụ. Chi phí: gói miễn phí.
 
